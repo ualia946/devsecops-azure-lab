@@ -12,14 +12,13 @@ Este repositorio contiene la infraestructura y documentación para desplegar una
 
 La infraestructura se despliega en una Red Virtual (VNet) personalizada y se divide en capas lógicas, cada una en una subred aislada para aplicar el principio de defensa en profundidad.
 
-
+![Diagrama de la Arquitectura de Red en Azure](images/topologia-vnet.png)
 
 1.  **Capa de Presentación (Frontend):** Un **Azure Application Gateway** actúa como reverse proxy y único punto de entrada desde internet.
 2.  **Capa de Lógica (Backend):** Una **Azure Container Instance (ACI)** ejecuta la aplicación web (DVWA) desde una imagen de Docker personalizada, sin exposición directa a internet.
 3.  **Capa de Datos (Database):** Un servidor de **Azure Database for MySQL (Flexible Server)** almacena los datos en una subred completamente aislada.
 4.  **Capa de Administración:** Una **Máquina Virtual (Jump Box)** en una subred separada sirve como punto de acceso seguro para tareas de mantenimiento.
 
-![Diagrama de la Arquitectura de Red en Azure](images/topologia-vnet.png)
 ---
 
 ### 💡 Logros y Habilidades Demostradas
