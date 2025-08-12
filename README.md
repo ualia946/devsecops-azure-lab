@@ -4,7 +4,7 @@
 
 Este repositorio contiene la infraestructura y documentación para desplegar una aplicación web siguiendo un patrón de **arquitectura de 3 capas** en Microsoft Azure. El objetivo es demostrar la implementación de una infraestructura segura, escalable y segmentada utilizando servicios nativos de la nube y contenedores Docker.
 
-**[Ver la documentación técnica detallada del despliegiegue](DOCUMENTACION_DETALLADA.md)**
+**[Ver la documentación técnica detallada del despliegue](DOCUMENTACION_DETALLADA.md)**
 
 ---
 
