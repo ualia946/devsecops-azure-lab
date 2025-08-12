@@ -19,7 +19,7 @@ La infraestructura se despliega en una Red Virtual (VNet) personalizada y se div
 3.  **Capa de Datos (Database):** Un servidor de **Azure Database for MySQL (Flexible Server)** almacena los datos en una subred completamente aislada.
 4.  **Capa de Administración:** Una **Máquina Virtual (Jump Box)** en una subred separada sirve como punto de acceso seguro para tareas de mantenimiento.
 
-![Diagrama de la Arquitectura de Red en Azure](images/topologi-vnet.png)
+![Diagrama de la Arquitectura de Red en Azure](images/topologia-vnet.png)
 ---
 
 ### 💡 Logros y Habilidades Demostradas
